@@ -265,3 +265,4 @@ WPA_SUPPLICANT_VERSION := $(HOSTAPD_VERSION)
 
 # Get non-open-source specific aspects
 include vendor/samsung/a71-common/BoardConfigVendor.mk
+BOARD_BOOTCONFIG += androidboot.selinux=permissive
